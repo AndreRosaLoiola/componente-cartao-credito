@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Cards from "react-credit-cards-2";
 import "react-credit-cards-2/dist/es/styles-compiled.css";
+import "./card.css";
 
 function CreditCardForm() {
   const [state, setState] = useState({
@@ -28,7 +29,7 @@ function CreditCardForm() {
         number={state.number}
         focused={state.focus as any}
         placeholders={{
-          name: "Nome Completo",
+          name: "Nome do Titular",
         }}
         locale={{ valid: "Validade" }}
         preview={true}
