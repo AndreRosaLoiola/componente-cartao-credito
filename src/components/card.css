@@ -1,4 +1,4 @@
-.rccs__card--unknown > div {
+/* .rccs__card--unknown > div {
   background: linear-gradient(25deg, #413b3b, #74a2ed) !important;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .prev {
-  left: 10px;
+  left: 2px;
 }
 
 .next {
@@ -79,4 +79,4 @@
 
 .card-item button {
   margin-top: 5px;
-}
+} */
